@@ -16,8 +16,8 @@ const occupation = "Driver"
 console.log(occupation)
 
 //data types
-var sity = "New York" //string
+var city = "New York" //string
 var postCode = 3564 //number
-var polution = true //boolean - used in conditions 
-var amountOfPolution = undefined //cannot be used
+var pollution = true //boolean - used in conditions 
+var amountOfPollution = undefined //cannot be used
 var actionsTaken = null
