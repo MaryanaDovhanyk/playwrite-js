@@ -17,15 +17,28 @@ console.log(x === '1') //strict comparison - compers value and data type
 console.log(true && true) // all values have to be true for expression to be true
 console.log(true && false) // one value is false - the expression is false
 
-// logical "OR" - '||'
-console.log(true || false) // any value should be true for the expression to be true
-
 var ageIsMoreThanEighteen = true
 var isUSCitizen = false
 
 var eligibilityForDriversLicense = ageIsMoreThanEighteen && isUSCitizen
 console.log(`This customer is eligible for DL ${eligibilityForDriversLicense}`)
 
+// logical "OR" - '||'
+console.log(true || false) // any value should be true for the expression to be true
+
+let notWorkingHour = true
+let isSunday = false
+
+let shopIsClosed = notWorkingHour || isSunday
+console.log('The shop is closed - ' + shopIsClosed)
+
 // logical "NOT" - '!'
 console.log(!true)
 console.log(6 !== 10)
+
+// increment-decrement +1 or ++ 
+let counter = 2
+counter ++
+console.log(counter)
+counter --
+console.log(counter)
