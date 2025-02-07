@@ -67,6 +67,13 @@ console.log(convertIntoAbbreviation('amanda White'))
 console.log(convertIntoAbbreviation('tery nest'))
  
 // Write a JavaScript function with conditional statement to sort three numbers.
+
+function numbersSort(){
+    let numbers = [60, 3, 500]
+    return numbers.sort((a,b) => a-b)
+}
+console.log(numbersSort())
+
 function sortNumbers(a, b, c){
     let min, mid, max
     if(a < b && a < c){
