@@ -1,1 +1,1 @@
-# playwrite-js
+# playwrght-js
